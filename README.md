@@ -2,9 +2,9 @@
 
 Programmer Quotes Library & Binary
 
-[![Continuous Integration](https://github.com/Th3Whit3Wolf/pquote/workflows/Continuous%20Integration/badge.svg?branch=main&event=deployment_status)][CI]
+[![Continuous Integration](https://github.com/Th3Whit3Wolf/pquote/workflows/Continuous%20Integration/badge.svg?branch=main)][CI]
 [![Coverage Status](https://coveralls.io/repos/github/Th3Whit3Wolf/pquote/badge.svg)][Coverage]
-[![Documentation](https://img.shields.io/badge/docs-master-blue.svg)][Documentation]
+[![Documentation](https://img.shields.io/badge/docs-main-blue.svg)][Documentation]
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)][License]
 [![Rust](https://img.shields.io/badge/rust-v1.36+-red.svg)][Rust]
 
