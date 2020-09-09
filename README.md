@@ -2,12 +2,17 @@
 
 Programmer Quotes Library & Binary
 
-[![Coveralls](https://coveralls.io/repos/github/Th3Whit3Wolf/pquote/badge.svg?branch=master)](https://coveralls.io/github/Th3Whit3Wolf/pquote?branch=master)
+[![Continuous Integration](https://github.com/Th3Whit3Wolf/pquote/workflows/Continuous%20Integration/badge.svg?branch=main&event=deployment_status)][CI]
+[![Coverage Status](https://coveralls.io/repos/github/Th3Whit3Wolf/pquote/badge.svg)][Coverage]
 [![Documentation](https://img.shields.io/badge/docs-master-blue.svg)][Documentation]
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-![Rust](https://img.shields.io/badge/rust-v1.36+-red.svg)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)][License]
+[![Rust](https://img.shields.io/badge/rust-v1.36+-red.svg)][Rust]
 
+[CI]: https://github.com/Th3Whit3Wolf/pquote/actions?query=workflow%3A%22Continuous+Integration%22
+[Coverage]: https://coveralls.io/github/Th3Whit3Wolf/pquote
 [Documentation]: https://th3whit3wolf.github.io/pquote/pquote/
+[License]: https://opensource.org/licenses/Apache-2.0
+[Rust]: https://www.rust-lang.org/
 
 List of 323 Quotes from various programmer's
 
