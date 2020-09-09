@@ -11,27 +11,27 @@ env:
   COVERALLS_GIT_BRANCH: main
 
 jobs:
-    coverage:
-        name: Code Coverage
-        runs-on: ubuntu-latest
-        steps:
-          - name: Checkout repository
-            uses: actions/checkout@v2
+  coverage:
+    name: Code Coverage
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
     
-          - name: Install stable toolchain
-            uses: actions-rs/toolchain@v1
-            with:
-              toolchain: stable
-              override: true
-    
-          - name: Run cargo-tarpaulin
-            uses: actions-rs/tarpaulin@v0.1
-            with:
-              args: '--ignore-tests --out Lcov'
-    
-          - name: upload to Coveralls
-            if: ${{ github.event_name == 'push' }}
-            uses: coverallsapp/github-action@master
-            with:
-              github-token: ${{ secrets.GITHUB_TOKEN }}
-              path-to-lcov: './lcov.info
+      - name: Install stable toolchain
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          override: true
+
+      - name: Run cargo-tarpaulin
+        uses: actions-rs/tarpaulin@v0.1
+        with:
+          args: '--ignore-tests --out Lcov'
+
+      - name: upload to Coveralls
+        if: ${{ github.event_name == 'push' }}
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path-to-lcov: './lcov.info'
