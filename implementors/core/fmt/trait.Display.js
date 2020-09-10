@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["pquote"] = [{"text":"impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html\" title=\"trait core::fmt::Display\">Display</a> for <a class=\"enum\" href=\"pquote/enum.Origin.html\" title=\"enum pquote::Origin\">Origin</a>","synthetic":false,"types":["pquote::Origin"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

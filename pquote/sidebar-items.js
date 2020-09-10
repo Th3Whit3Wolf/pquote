@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["Origin","Origin of a quote"]],"static":[["QUOTES","Array of (323) Programming related quotes"]],"struct":[["Quote","All quotes must have the following"]]});

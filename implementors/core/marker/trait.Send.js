@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["pquote"] = [{"text":"impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/marker/trait.Send.html\" title=\"trait core::marker::Send\">Send</a> for <a class=\"struct\" href=\"pquote/struct.Quote.html\" title=\"struct pquote::Quote\">Quote</a>","synthetic":true,"types":["pquote::Quote"]},{"text":"impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/marker/trait.Send.html\" title=\"trait core::marker::Send\">Send</a> for <a class=\"enum\" href=\"pquote/enum.Origin.html\" title=\"enum pquote::Origin\">Origin</a>","synthetic":true,"types":["pquote::Origin"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
